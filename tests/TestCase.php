@@ -2,9 +2,9 @@
 
 namespace Banquier\Banquier\Tests;
 
+use Banquier\Banquier\BanquierServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Banquier\Banquier\BanquierServiceProvider;
 
 class TestCase extends Orchestra
 {

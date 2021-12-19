@@ -2,9 +2,9 @@
 
 namespace Banquier\Banquier;
 
+use Banquier\Banquier\Commands\BanquierCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Banquier\Banquier\Commands\BanquierCommand;
 
 class BanquierServiceProvider extends PackageServiceProvider
 {
