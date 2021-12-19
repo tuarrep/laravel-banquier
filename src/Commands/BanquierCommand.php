@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Banquier\Banquier\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class BanquierCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-banquier';
 
     public $description = 'My command';
 
